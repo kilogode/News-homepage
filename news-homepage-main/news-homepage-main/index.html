@@ -173,71 +173,19 @@
     
   </div>
 
-  <!-- <section>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.menu');
+    const closeMenu = document.querySelector('.menu img');
 
-    <nav>
+    hamburger.addEventListener('click', () => {
+      menu.style.display = 'block';
+    });
 
-      
-
-      <ul>
-        <li></li>
-        <li><</li>
-        <li><a href="">Popular</a></li>
-        <li><a href="">Trending</a></li>
-        <li><a href="">Categories</a></li>
-      </ul>
-    </nav>
-
-
-
-    
-
-
-
-
-
-
-    <div class="main">
-      <div class="main-left">
-        <div class="main-left-top">
-          
-        </div>
-        <div class="main-left-bottom">
-          <div class="main-left-bottom-left">
-            
-          </div>
-          <div class="main-left-bottom-right">
-          
-          </div>
-        </div>
-      </div>
-
-      <div class="main-right">
-       
-      </div>
-    </div>
-
-    <div class="numbers">
-
-      <div class="cell">
-        
-      </div>
-
-      <div class="cell-1">
-        
-      </div>
-
-      <div class="cell-2">
-       
-      </div>
-
-    </div>
-  </section> -->
-  
-  
-  
-
-  
+    closeMenu.addEventListener('click', () => {
+      menu.style.display = 'none';
+    });
+  </script>
   
   
   
